@@ -74,7 +74,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cnfilmworld')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cnnetworkk')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ShivamVerified')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/CN_DISCUSSION=') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/CN_DISCUSSION') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -103,7 +103,7 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/noob_je')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/ShivamVerified')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
